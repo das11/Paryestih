@@ -1,10 +1,8 @@
-YouTube Geofind
+## Paryestih
 =
 
 Search YouTube for geographically tagged videos by location, topic, or channel. 
 Videos are viewable in a map and exportabled to CSV.
-
-* https://mattw.io/youtube-geofind/location
 
 ![Example](https://i.imgur.com/VCuvjU8.png)
 
@@ -25,18 +23,18 @@ What's unique about this tool? How can you use it?
 
 ### Wiki
 
-For more details about this app and YouTube geotags, [check out the wiki](https://github.com/mattwright324/youtube-geofind/wiki)!
+For more details about this app and YouTube geotags, [check out the wiki]()!
 
 ### Query API
 
-Refer to the wiki for more detail about the [Query API](https://github.com/mattwright324/youtube-geofind/wiki/Query-API).
+Refer to the wiki for more detail about the [Query API]().
 
 ### Building
 
-Refer to [BUILD.md](https://github.com/mattwright324/youtube-geofind/blob/master/BUILD.md) 
+Refer to [BUILD.md]() 
 for instructions on how to build and run `youtube-geofind` from source.
 
 ### Contributing
 
-Contributions are welcome, refer to [CONTRIBUTING.md](https://github.com/mattwright324/youtube-geofind/blob/master/CONTRIBUTING.md) 
+Contributions are welcome, refer to [CONTRIBUTING.md]() 
 for more detail.
