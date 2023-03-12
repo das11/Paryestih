@@ -1,7 +1,5 @@
 encoding    : UTF-8
-# exclude     : [.idea]
-exclude     : 
-- tmp/
+exclude     : [vendor]
 
 title       : Paryestih
 subtitle    : Discover Geo-tagged Videos
