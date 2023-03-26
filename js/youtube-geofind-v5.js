@@ -776,9 +776,14 @@ const geofind = (function () {
                 console.log("handleChannelHandles.get(" + index + ")")
 
                 $.ajax({
-                    url: "https://cors-proxy-mw324.herokuapp.com/https://www.youtube.com/@" + channelHandles[index],
-                    dataType: 'html'
+                    url: " https://cors-anywhere.herokuapp.com/https://www.youtube.com/@" + channelHandles[index],
+                    dataType: 'html',
+                    // headers: {
+                    //     "X-Requested-With": "XMLHttpRequest",
+                    //     "Authorization": "Bearer ",
+                    // }
                 }).then(function (res) {
+                    // console.log("\n\nLOgging --- " + res + "\n");
                     const pageHtml = $("<div>").html(res);
                     const channelId = pageHtml.find("meta[itemprop='channelId']").attr('content');
 
